@@ -1,0 +1,32 @@
+.house-detail-option {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  font-size: 17px;
+  border-top: 1px solid #cecece;
+  color: #999;
+  background-color: #fff;
+  text-align: center;
+  &__item {
+    height: 100%;
+    line-height: 50px;
+    img {
+      width: 16px;
+      height: 16px;
+    }
+    span {
+      margin-left: 6px;
+    }
+    &:first-child {
+      border-right: solid 1px #e8e8e9;
+    }
+    &--tel {
+      a {
+        color: #fff;
+      }
+      background-color: #21b97a;
+    }
+  }
+}

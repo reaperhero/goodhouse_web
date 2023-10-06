@@ -1,0 +1,32 @@
+.citylist {
+  position: relative;
+  padding-top: 45px;
+  height: 100vh;
+  .nav-header {
+    position: fixed;
+    top: 0;
+  }
+  &-index {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 5px;
+    height: 88%;
+    margin-top: 20px;
+    font-size: 15px;
+    z-index: 1;
+    &__item {
+      height: 15px;
+      width: 15px;
+      text-align: center;
+      line-height: 15px;
+      border-radius: 50%;
+      &.active {
+        color: #fff;
+        font-size: 12px;
+        background-color: #21b97a;
+      }
+    }
+  }
+}

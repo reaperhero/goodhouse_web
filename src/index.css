@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  touch-action: pan-y;
+}
+
+html,
+body {
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+}
+
+body.body-fixed {
+  overflow: hidden;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+.tab-bar-nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.tab-bar-nav .iconfont {
+  font-size: 20px;
+}
+
+.am-navbar.nav-header {
+  width: 100%;
+  color: #333;
+  background-color: #f6f5f6;
+}
+
+.router-loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

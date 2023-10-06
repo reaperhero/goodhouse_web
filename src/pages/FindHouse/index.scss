@@ -1,0 +1,42 @@
+.findhouse {
+  height: 100vh;
+  &-vlist {
+    padding-bottom: 50px;
+  }
+  .nav-header {
+    color: #999;
+    padding: 0 10px;
+    .search-bar {
+      padding: 0;
+    }
+    .am-navbar-left {
+      padding-left: 0;
+      flex: 0;
+    }
+    .am-navbar-right {
+      flex: none;
+      margin: 0;
+    }
+  }
+  &-house-list {
+    height: 93%;
+    padding: 0 10px 50px;
+    &__item {
+      &--none {
+        padding-top: 100px;
+        text-align: center;
+        color: #aaa;
+      }
+      &--loading {
+        padding: 5px;
+        .item-bg {
+          display: flex;
+          align-items: center;
+          padding-left: 10px;
+          height: 100%;
+          background-color: #fafafa;
+        }
+      }
+    }
+  }
+}

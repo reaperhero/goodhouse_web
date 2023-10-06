@@ -1,0 +1,14 @@
+.house-package {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  text-align: center;
+  &__item {
+    width: 20%;
+    margin: 10px 0;
+    line-height: 23px;
+    i {
+      font-size: 23px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.search-bar {
+  width: 100%;
+  padding: 0 10px;
+  &__search {
+    height: 34px;
+    padding: 5px;
+    padding-left: 12px;
+    margin: 0 10px;
+    flex: 1;
+    border-radius: 3px;
+    background-color: #fff;
+    .am-flexbox {
+      height: 100%;
+    }
+    .city {
+      font-size: 14px;
+      color: #333;
+      i {
+        margin-left: 2px;
+        font-size: 12px;
+        color: #7f7f80;
+      }
+    }
+    .address {
+      margin-left: 12px;
+      border-left: 1px solid #e5e5e5;
+      color: #9c9fa1;
+      i, span {
+        vertical-align: middle;
+      }
+      i {
+        margin-left: 12px;
+        font-size: 15px;
+      }
+      span {
+        margin-left: 6px;
+        font-size: 13px;
+      }
+    }
+  }
+  &__map {
+    font-size: 25px;
+    color: #fff;
+  }
+}

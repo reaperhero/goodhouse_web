@@ -1,0 +1,52 @@
+.registry {
+  .nav-header {
+    background-color: #fff;
+  }
+  &-form {
+    margin-top: 21px;
+    &__item {
+      display: flex;
+      height: 60px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #f7f7f7;
+      line-height: 60px;
+      font-size: 17px;
+      label {
+        width: 85px;
+      }
+      input {
+        flex: 1;
+        height: 100%;
+        padding: 2px 0;
+        border: 0;
+        &::placeholder {
+          color: #c0c0c0;
+        }
+      }
+    }
+    &__submit {
+      width: 100%;
+      height: 50px;
+      margin-top: 27px;
+      text-align: center;
+      font-size: 18px;
+      outline: none;
+      border-radius: 2px;
+      color: #fff;
+      background-color: #1cb676;
+      border: 1px solid #1cb575;
+    }
+    &__message {
+      &--error {
+        margin-left: 85px;
+        color: #f00;
+      }
+    }
+  }
+  &-links {
+    margin-top: 30px;
+    a {
+      color: #666;
+    }
+  }
+}

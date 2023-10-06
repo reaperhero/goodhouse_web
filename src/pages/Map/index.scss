@@ -1,0 +1,77 @@
+.map {
+  height: 100vh;
+  padding-top: 45px;
+  .nav-header {
+    position: fixed;
+    top: 0;
+  }
+  &-gl {
+    height: 100%;
+  }
+  &-bubble {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    &__title {
+      margin-bottom: 5px;
+    }
+  }
+  &-rect {
+    position: relative;
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 3px;
+    }
+    &__title {
+      width: 70px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    &__arrow {
+      position: absolute;
+      left: 50%;
+      bottom: -23px;
+      height: 20px;
+      transform: translate(-50%);
+      border: 4px solid transparent;
+      border-top-color: #00a75b;
+    }
+  }
+}
+.house-info {
+  position: fixed;
+  bottom: -330px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 330px;
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
+  transition: all .6s;
+  &.active {
+    bottom: 0;
+  }
+  &-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px 12px 15px;
+    border-radius: 10px 10px 0 0;
+    background-color: #00b161;
+    color: #fff;
+    h2 {
+      font-size: 16px;
+    }
+    .more {
+      font-size: 15px;
+    }
+  }
+  &-list {
+    padding: 0 10px 45px;
+    height: 100%;
+    overflow-y: auto;
+  }
+}
